@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* extra code */
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  background: hsla(120, 93%, 84%, 1);
+
+  background: linear-gradient(90deg, hsla(120, 93%, 84%, 1) 0%, hsla(185, 90%, 51%, 1) 100%);
+
+  background: -moz-linear-gradient(90deg, hsla(120, 93%, 84%, 1) 0%, hsla(185, 90%, 51%, 1) 100%);
+
+  background: -webkit-linear-gradient(90deg, hsla(120, 93%, 84%, 1) 0%, hsla(185, 90%, 51%, 1) 100%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#AFFCAF", endColorstr="#12DFF3", GradientType=1 );
+}
+
+div {
+
+    width: 1240;
+    height: 500;
+    position: absolute;
+    /* border: 2px solid red; */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#vultureDiv {
+  border: 2px solid red;
+  width: 150px;
+  height: 500px;
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#crowDiv {
+  border: 2px solid red;
+  width: 150px;
+  height: 500px;
+  position: absolute;
+  left: 90%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#crowsKilled{
+  top: 88%;
+  float: right;
+  position: absolute;
+  left: 75%;
+  color: royalblue;
+}
+
+#reset-btn{
+
+  top: 90%;
+  position: absolute;
+  border-radius: 15px;
+  left: 5%;
+  float: left;
+  width: 150px;
+  height: 50px;
+
+}
+
+#turnData{
+
+  color:  green;
+  top: 88%;
+  position: absolute;
+  left: 44%;
+
+}

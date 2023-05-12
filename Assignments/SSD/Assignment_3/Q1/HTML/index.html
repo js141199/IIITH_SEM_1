@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="../JS/gameLoader.js" ></script>
+    <link rel="stylesheet" href="../CSS/style.css" >
+    <script src="../JS/trackMovements.js" ></script>
+</head>
+<body onload="loadGame()" >
+
+    <center>
+        <h1 style="padding-top: 15px;color: green;" >KAOOA Game</h1>
+    </center>  
+
+    <div id="mainDiv" ></div>
+    
+    <button type="button" class="btn btn-primary" onclick="resetGame()" id="reset-btn">Reset</button>
+    <h2 id="turnData" ></h2>
+    <h2 id="crowsKilled"></h2>
+
+    <a download="logs.txt" id="downloadlink" style="display: none">Download</a>  
+    
+</body>
+</html>

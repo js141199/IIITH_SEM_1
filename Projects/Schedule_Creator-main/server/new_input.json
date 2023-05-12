@@ -1,0 +1,140 @@
+{
+
+    "mainEventName" : "Notion Tech Fest",
+    "mainEventDescription" : "College Event",
+    "mainEventDaysCount" : "2",
+    "eventsDetails": 
+    [
+        {
+        "date": "2022-10-29",
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "events": 
+        [
+            {
+                "eventType": "event",
+                "eventName": "Seminar",
+                "eventId" : "1",
+                "eventDescription" : "Seminar on AI",
+                "eventVenue" : "SH-1",
+                "eventDuration": "15",
+                "eventCount": "5"
+            },
+            {
+                "eventType": "event",
+                "eventName": "Talk",
+                "eventDuration": "13",
+                "eventId" : "2",
+                "eventDescription" : "Talk from great person.",
+                "eventVenue" : "Sh-2",
+                "eventCount": "3"
+            },
+            {
+                "eventType": "event",
+                "eventName": "Presentation",
+                "eventDuration": "10",
+                "eventId" : "3",
+                "eventDescription" : "Presentation event",
+                "eventVenue" : "SH-1",
+                "eventCount": "15"
+            }
+        ],
+        "breaks": 
+        [
+            {
+                "breakType": "lunch",
+                "breakName": "Lunch Break",
+                "breakDuration": "60",
+                "breakId" : "4",
+                "breakDescription" : "his is lunch break",
+                "breakVenue" : "Canteen",
+                "breakCount": "1"
+            },
+            {
+                "breakType": "breakfast",
+                "breakName": "Breakfast",
+                "breakDuration": "30",
+                "breakId" : "5",
+                "breakDescription" : "This is break fast",
+                "breakVenue" : "H-109",
+                "breakCount": "1"
+            },
+            {
+                "breakType": "additionalBreak",
+                "breakName": "Short Break",
+                "breakDuration": "10",
+                "breakId" : "6",
+                "breakDescription" : "Short break for enjoyment",
+                "breakVenue" : "A-109",
+                "breakCount": "10"
+            }
+        ]
+        },
+        {
+            "date": "2022-11-29",
+            "startTime": "09:00",
+            "endTime": "17:00",
+            "events": 
+            [
+                {
+                    "eventType": "event",
+                    "eventName": "Seminar",
+                    "eventId" : "1",
+                    "eventDescription" : "Seminar on AI",
+                    "eventVenue" : "SH-1",
+                    "eventDuration": "15",
+                    "eventCount": "5"
+                },
+                {
+                    "eventType": "event",
+                    "eventName": "Talk",
+                    "eventDuration": "20",
+                    "eventId" : "2",
+                    "eventDescription" : "Talk from great person.",
+                    "eventVenue" : "Sh-2",
+                    "eventCount": "3"
+                },
+                {
+                    "eventType": "event",
+                    "eventName": "Presentation",
+                    "eventDuration": "10",
+                    "eventId" : "3",
+                    "eventDescription" : "Presentation event",
+                    "eventVenue" : "SH-1",
+                    "eventCount": "15"
+                }
+            ],
+            "breaks": 
+            [
+                {
+                    "breakType": "lunch",
+                    "breakName": "Lunch Break",
+                    "breakDuration": "60",
+                    "breakId" : "4",
+                    "breakDescription" : "his is lunch break",
+                    "breakVenue" : "Canteen",
+                    "breakCount": "1"
+                },
+                {
+                    "breakType": "breakfast",
+                    "breakName": "Breakfast",
+                    "breakDuration": "30",
+                    "breakId" : "5",
+                    "breakDescription" : "This is break fast",
+                    "breakVenue" : "H-109",
+                    "breakCount": "1"
+                },
+                {
+                    "breakType": "additionalBreak",
+                    "breakName": "Short Break",
+                    "breakDuration": "10",
+                    "breakId" : "6",
+                    "breakDescription" : "Short break for enjoyment",
+                    "breakVenue" : "A-109",
+                    "breakCount": "10"
+                }
+            ]
+            }
+        
+    ]
+}
